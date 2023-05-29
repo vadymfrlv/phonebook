@@ -70,4 +70,4 @@ The Phonebook application is built using the following technologies:
 
 ## Author 👨🏻‍💻
 
-This app was developed by [vadymfrlv]
+This app was developed by frlv
