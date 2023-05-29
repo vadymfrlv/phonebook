@@ -22,7 +22,7 @@ The application consists of several pages:
 
 ## Demo 🖥
 
-![Demo Video](./build/demo/demo.gif)
+![Demo](https://raw.githubusercontent.com/vadymfrlv/storage/main/demos/phonebook/phonebook-demo.gif)
 
 ## Installation ⚡️
 
