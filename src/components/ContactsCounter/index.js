@@ -1,0 +1,1 @@
+export { ContactsCounter } from './ContactsCounter';
