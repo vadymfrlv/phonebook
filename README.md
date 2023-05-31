@@ -13,11 +13,12 @@ the search query, the user sees a message indicating this.
 
 The application consists of several pages:
 
-- /signup - a public route for registering a new user with a form. This route is restricted, and if
-  the user is already logged in, they cannot access this route.
-- /signin - a public route for logging in an existing user with a form. This route is restricted,
+- `/` - a public route that displays the greeting.
+- `/signup` - a public route for registering a new user with a form. This route is restricted, and
+  if the user is already logged in, they cannot access this route.
+- `/signin` - a public route for logging in an existing user with a form. This route is restricted,
   and if the user is already logged in, they cannot access this route.
-- /contacts - a private route for managing the user's contact list. If the user is not logged in,
+- `/contacts` - a private route for managing the user's contact list. If the user is not logged in,
   they cannot access this route and will be redirected to the /signin page.
 
 ## Demo 🖥
@@ -45,13 +46,21 @@ endpoints are used:
 
 User-related endpoints:
 
-POST /users/signup - Create a new user POST /users/login - Log in user POST /users/logout - Log out
-user GET /users/current - Get information about the current user Contact-related endpoints:
+### POST
+
+`/users/signup` - Create a new user
+
+### POST
+
+/users/login - Log in user POST /users/logout - Log out user GET /users/current - Get information
+about the current user Contact-related endpoints:
 
 GET /contacts - Get all user contacts POST /contacts - Create a new contact DELETE
 /contacts/{contactId} - Delete a contact PATCH /contacts/{contactId} - Update an existing contact
+
 Please refer to the backend documentation for detailed information on these endpoints and their
-usage https://connections-api.herokuapp.com/docs/#/
+usage
+[<b>https://connections-api.herokuapp.com/docs/#/</b>](https://connections-api.herokuapp.com/docs/#/)
 
 ## Tech Stack 🛠
 
