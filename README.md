@@ -71,9 +71,9 @@ endpoints are used:
 
 - `/contacts/{contactId}` - Delete a contact
 
-#### PATCH
-
-- `/contacts/{contactId}` - Update an existing contact
+<!-- #### PATCH
+s
+- `/contacts/{contactId}` - Update an existing contact -->
 
 Please refer to the backend documentation for detailed information on these endpoints and their
 usage
