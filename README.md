@@ -68,12 +68,12 @@ endpoints are used:
 
 #### DELETE
 
-- /`contacts/{contactId}` - Delete a contact PATCH /contacts/{contactId} - Update an existing
+- `/contacts/{contactId}` - Delete a contact PATCH /contacts/{contactId} - Update an existing
   contact
 
 Please refer to the backend documentation for detailed information on these endpoints and their
 usage
-[`<b>https://connections-api.herokuapp.com/docs/#/</b>`](https://connections-api.herokuapp.com/docs/#/)
+[<b>`https://connections-api.herokuapp.com/docs/#/`</b>](https://connections-api.herokuapp.com/docs/#/)
 
 ## Tech Stack 🛠
 
