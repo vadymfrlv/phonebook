@@ -46,7 +46,7 @@ endpoints are used:
 
 User-related endpoints:
 
-### POST
+#### POST
 
 `/users/signup` - Create a new user
 
