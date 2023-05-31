@@ -29,7 +29,8 @@ The application consists of several pages:
 
 To launch a project on GitHub, you first need to clone the project to your local machine. For
 instance, if you're working with a React project created using create-react-app, you can clone the
-project by running the command git clone https://github.com/username/project.git in your terminal.
+project by running the command git clone `https://github.com/vadymfrlv/phonebook.git` in your
+terminal.
 
 After the project has been cloned, you need to navigate to the project directory and install any
 dependencies that the project requires. You can do this by running the command `npm install` in your
@@ -68,8 +69,11 @@ endpoints are used:
 
 #### DELETE
 
-- `/contacts/{contactId}` - Delete a contact PATCH /contacts/{contactId} - Update an existing
-  contact
+- `/contacts/{contactId}` - Delete a contact
+
+#### PATCH
+
+- `/contacts/{contactId}` - Update an existing contact
 
 Please refer to the backend documentation for detailed information on these endpoints and their
 usage
