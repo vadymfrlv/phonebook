@@ -44,19 +44,32 @@ make to the code will automatically update in the browser.
 The application communicates with a backend server to perform various operations. The following API
 endpoints are used:
 
-User-related endpoints:
+### User-related endpoints:
 
 #### POST
 
-`/users/signup` - Create a new user
+- `/users/signup` - Create a new user
+- `/users/login` - Log in user
+- `/users/logout` - Log out user
 
-### POST
+#### GET
 
-/users/login - Log in user POST /users/logout - Log out user GET /users/current - Get information
-about the current user Contact-related endpoints:
+- `/users/current` - Get information about the current user
 
-GET /contacts - Get all user contacts POST /contacts - Create a new contact DELETE
-/contacts/{contactId} - Delete a contact PATCH /contacts/{contactId} - Update an existing contact
+### Contact-related endpoints:
+
+#### GET
+
+- `/contacts` - Get all user contacts
+
+#### POST
+
+- `/contacts` - Create a new contact
+
+#### DELETE
+
+- /`contacts/{contactId}` - Delete a contact PATCH /contacts/{contactId} - Update an existing
+  contact
 
 Please refer to the backend documentation for detailed information on these endpoints and their
 usage
