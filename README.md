@@ -73,7 +73,7 @@ endpoints are used:
 
 Please refer to the backend documentation for detailed information on these endpoints and their
 usage
-[<b>https://connections-api.herokuapp.com/docs/#/</b>](https://connections-api.herokuapp.com/docs/#/)
+[`<b>https://connections-api.herokuapp.com/docs/#/</b>`](https://connections-api.herokuapp.com/docs/#/)
 
 ## Tech Stack 🛠
 
