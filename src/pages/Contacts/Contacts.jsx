@@ -9,8 +9,7 @@ import { Filter } from 'components/Filter';
 import { Notification } from 'components/Notification';
 
 import { useGetAllContactsQuery } from 'redux/contacts/contactsApi';
-
-import { getFilter } from 'redux/filter/filterSelectors';
+import { getFilter } from 'redux/filter/filterSlice';
 
 const ContactsPage = () => {
   const { data: contacts } = useGetAllContactsQuery('Contact', {
@@ -18,14 +17,14 @@ const ContactsPage = () => {
     skip: false,
   });
 
-  const filter = useSelector(getFilter);
+  const filterValue = useSelector(getFilter);
 
   let contactsToShow = contacts;
   let counterLabel = `All contacts: ${contactsToShow?.length}`;
 
-  if (filter) {
+  if (filterValue) {
     contactsToShow = contacts.filter(contact =>
-      contact.name.toLowerCase().includes(filter.toLowerCase())
+      contact.name.toLowerCase().includes(filterValue.toLowerCase())
     );
 
     if (contactsToShow.length === 1) {

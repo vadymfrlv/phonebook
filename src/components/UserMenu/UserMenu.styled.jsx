@@ -13,6 +13,7 @@ export const Avatar = styled.img`
 
 export const UserName = styled.p`
   margin-right: 20px;
+
   font-weight: 800;
   font-size: 13px;
   text-align: center;
@@ -23,17 +24,20 @@ export const UserName = styled.p`
 `;
 
 const buttonSX = {
-  fontSize: 13,
-  fontWeight: 900,
-  letterSpacing: 1,
-  borderWidth: 2,
   padding: '2px 6px',
-  backgroundColor: 'transparent',
-  borderColor: 'rgba(255, 255, 255, 0.676)',
+
+  fontWeight: 900,
+  fontSize: 13,
+  letterSpacing: 1,
+
   color: 'rgba(255, 255, 255, 0.676)',
+  borderColor: 'rgba(255, 255, 255, 0.676)',
+  backgroundColor: 'transparent',
+  borderWidth: 2,
+
   '&:hover': {
-    borderColor: '#acfc00',
     color: '#acfc00',
+    borderColor: '#acfc00',
     borderWidth: 2,
   },
 };

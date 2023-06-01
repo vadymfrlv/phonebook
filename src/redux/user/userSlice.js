@@ -31,9 +31,13 @@ const userSlice = createSlice({
   },
 });
 
+//actions
 export const { setUserCredentials, fetchCurrentUser, userLogout } = userSlice.actions;
+
+//reducer
 export const userReducer = userSlice.reducer;
 
+//selectors
 export const getUserName = state => state.user.userName;
 export const getToken = state => state.user.token;
 export const getIsLoggedIn = state => state.user.isLoggedIn;

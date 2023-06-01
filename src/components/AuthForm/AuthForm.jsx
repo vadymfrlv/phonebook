@@ -27,8 +27,10 @@ export const AuthForm = () => {
   const [signIn] = useUserSignInMutation();
 
   const [showError, setShowError] = useState(false);
+
   const dispatch = useDispatch();
   const location = useLocation().pathname;
+
   const mutationMethod = location === '/signup' ? signUp : signIn;
 
   const handleUserSignUp = async userData => {

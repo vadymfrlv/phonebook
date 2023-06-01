@@ -3,22 +3,26 @@ import { Field } from 'formik';
 
 export const StyledLabel = styled.label`
   display: flex;
-  color: #fff;
-  font-weight: 700;
-  justify-content: center;
   align-items: center;
-  font-size: 15px;
+  justify-content: center;
   margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 15px;
+
+  color: #fff;
 `;
 
 export const StyledField = styled(Field)`
   display: flex;
-  font-size: 15px;
   width: 200px;
-  font-weight: 700;
+  height: 25px;
   margin-left: 20px;
+
+  font-weight: 700;
+  font-size: 15px;
+
   color: #3c3c3c;
   border: none;
-  height: 25px;
   border-radius: 4px;
 `;

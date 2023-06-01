@@ -1,8 +1,7 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { Formik, Form } from 'formik';
 
-import { getFilter } from 'redux/filter/filterSelectors';
-import { filterContacts } from 'redux/filter/filterSlice';
+import { filterContacts, getFilter } from 'redux/filter/filterSlice';
 
 import { StyledLabel, StyledField } from './Filter.styled';
 

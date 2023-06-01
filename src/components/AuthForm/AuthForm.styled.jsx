@@ -4,24 +4,24 @@ import { TextField, Button } from '@mui/material';
 
 export const AuthFormContainer = styled.div`
   display: flex;
-  margin-top: 150px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 150px;
 `;
 
 export const Title = styled.h1`
-  margin-right: auto;
-  margin-bottom: 25px;
   margin-left: auto;
+  margin-bottom: 25px;
+  margin-right: auto;
 
   font-weight: 700;
   font-size: 35px;
   letter-spacing: 0.3em;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.676);
 
+  color: rgba(255, 255, 255, 0.676);
   background: linear-gradient(to right, #fff 20%, #acfc00 40%, #acfc00 60%, #fff 80%);
   background-size: 200% auto;
 
@@ -50,19 +50,21 @@ export const TextFieldAndErrorWrapper = styled.div`
 export const ErrorText = styled.p`
   position: absolute;
   bottom: 8px;
+
   font-weight: 900;
   font-size: 11px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+
   color: rgb(252, 74, 29);
 `;
 
 export const StyledForm = styled(Form)`
   display: flex;
-  width: 370px;
-  margin-right: auto;
-  margin-left: auto;
   flex-direction: column;
+  width: 370px;
+  margin-left: auto;
+  margin-right: auto;
 `;
 
 const textFieldSX = {
@@ -86,15 +88,17 @@ export const StyledTextField = styled(TextField)`
 
   && {
     input {
-      font-size: 17px;
       margin: 0;
       font-weight: 700;
+      font-size: 17px;
+
       color: rgba(255, 255, 255, 0.676);
     }
 
     label {
-      font-size: 15px;
       font-weight: 700;
+      font-size: 15px;
+
       color: rgba(255, 255, 255, 0.676);
     }
 
@@ -103,17 +107,18 @@ export const StyledTextField = styled(TextField)`
 `;
 
 const buttonSX = {
-  fontSize: 17,
   fontWeight: 700,
+  fontSize: 17,
   letterSpacing: 1,
-  borderWidth: 2,
-  backgroundColor: 'transparent',
-  borderColor: 'rgba(0, 21, 255, 0.5)',
+
   color: 'rgba(0, 21, 255, 0.5)',
+  backgroundColor: 'transparent',
+  borderWidth: 2,
+  borderColor: 'rgba(0, 21, 255, 0.5)',
   '&:hover': {
-    borderColor: '#acfc00',
     color: '#acfc00',
     borderWidth: 2,
+    borderColor: '#acfc00',
   },
 };
 
@@ -126,9 +131,11 @@ export const StyledButton = styled(Button)`
 
 export const Error = styled.p`
   margin-top: 16px;
+
   font-weight: 900;
   font-size: 13px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+
   color: rgb(252, 74, 29);
 `;

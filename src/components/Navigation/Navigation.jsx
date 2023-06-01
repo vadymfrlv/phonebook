@@ -1,12 +1,11 @@
-import { useSelector } from 'react-redux';
-
 import { Box } from 'components/Box/Box';
-import { getIsLoggedIn } from 'redux/user/userSlice';
+import { useAuthStatus } from 'hooks/useAuthStatus';
 
 import { StyledNavLink } from './AuthUserNav.styled';
 
 export const Navigation = () => {
-  const isLoggedIn = useSelector(getIsLoggedIn);
+  const { isLoggedIn } = useAuthStatus();
+
   return (
     <Box as="nav">
       <StyledNavLink to="/">Home</StyledNavLink>
