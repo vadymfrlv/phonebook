@@ -85,8 +85,8 @@ The Phonebook application is built using the following technologies:
 
 - React
 - React Router DOM
-- React-Redux
 - Redux Toolkit
+- RTK Query
 - Redux Persist
 - Formik
 - Yup
